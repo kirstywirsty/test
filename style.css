@@ -1,0 +1,17 @@
+/* Basic styling */
+body {
+  background: lightblue;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+p {
+  color: #333;
+  font-size: 18px;
+  text-align: center;
+}
+
