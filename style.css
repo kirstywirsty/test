@@ -55,8 +55,9 @@ BORDER: edge around the element
 }
 
 .navbar {
-    display: flex;             /*horizontal*/
-    justify-content: center;   /* centers horizontally */
-    gap: 20px;                 /* space between links */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     padding: 10px;
+    width: 100%;   /* make container span page */
 }
