@@ -7,6 +7,7 @@ body {
 h1 {
   color: darkblue;
   text-align: center;
+  font-size: 36px;
 }
 
 p {
@@ -18,14 +19,44 @@ p {
 /*ID selector (#id_name)*/
 
 #main-title{
-  color: rgb(142, 20, 142)
+  color: rgb(142, 20, 142);
 }
 
 /* CLASS selector (.classname)*/
 .navbar{
-  color: rgb(227, 139, 227)
+  background-color: rgb(227, 139, 227);
+}
+.navbar a {
+  color: white;
 }
 
 .intro{
-  color:rgb(54, 177, 87)
+  color:rgb(54, 177, 87);
+  font-size: 20px;
+}
+
+/*CSS box model*/
+/*
+PADDING: space inside border
+MARGIN: space outside border
+BORDER: edge around the element 
+*/
+
+#main-title{
+  border: 3px black;
+  padding: 10px;
+  margin: 20px;
+}
+
+.intro {
+    border: 1px solid gray;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.navbar {
+    display: flex;             /*horizontal*/
+    justify-content: center;   /* centers horizontally */
+    gap: 20px;                 /* space between links */
+    padding: 10px;
 }
